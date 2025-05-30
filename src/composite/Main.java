@@ -1,4 +1,15 @@
 package composite;
+//Pattern 1
+//The first thing this browser should have is tab grouping. Everybody hates the mess of 100 tabs
+//being open and searching through them. We should be able to group them into logical units
+//like:
+//	“Work stuff”
+//	“Procrastination”
+//	“Tabs I swear I’ll read later”
+//Each group can contain tabs or other tab groups. Closing a group should recursively close all
+//contained tabs and I should be able to also search through them. Both the tabs and the groups
+//will have names.
+
 //Client code – uses both leaf and composite uniformly
 public class Main {
 

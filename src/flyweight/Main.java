@@ -1,7 +1,12 @@
 package flyweight;
-//Client – corresponds to "Client" in the UML diagram
-public class Main {
+//Pattern 2
+//Emojis are everywhere in this browser. Every tab, every notification, every cookie warning has
+//them. But the memory usage is outrageous.
+//Each emoji type (😂, 🤦, 👀, etc.) is rendered repeatedly, sometimes thousands of times
+//across the UI. Find away to reduce this memory footprint.
 
+public class Main {
+	//Client – corresponds to "Client" in the UML diagram
 	public static void main(String[] args) {
 		 // Sample symbols and UI locations (context)
         String[] symbols = {"😂", "🤦", "👀"};
